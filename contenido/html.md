@@ -18,7 +18,7 @@ Según la Referencia de elementos HTML de Mozilla Developer Network, actualmente
 
 Debido a un rápido aumento de la popularidad, HTML ahora se considera un estándar web oficial. Las especificaciones de HTML son mantenidas y desarrolladas por el World Wide Web Consortium (W3C).
 
-La actualización más importante del lenguaje fue la introducción de [HTML5](https://es.wikipedia.org/wiki/HTML5)en el 2014. Se agregaron varias etiquetas semánticas nuevas al marcado, que revelan el significado de su propio contenido, como <article>, <header> y <footer>.
+La actualización más importante del lenguaje fue la introducción de [HTML5](https://es.wikipedia.org/wiki/HTML5)en el 2014. Se agregaron varias etiquetas semánticas nuevas al marcado, que revelan el significado de su propio contenido, como `<article>, <header> y <footer>.`.
 
 ## ¿Cómo funciona HTML?
 Los documentos HTML son archivos que terminan con una extensión .html o .htm. El navegador lee el archivo HTML y muestra su contenido para que los usuarios de Internet puedan verlo.
