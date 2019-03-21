@@ -420,7 +420,7 @@ Esta lleva dos atributos:
 
 Para insertar un campo de texto en una línea, vamos a utilizar la etiqueta **input**. Existen diferentes tipos de inputs y cada uno de ellos tiene una funcionalidad distinta. Lo que cambia en cada uno de ellos es el atributo **type**.
 
-#####Texto#####
+##### Texto
 * Se utilizan para ingresar una línea de texto como puede ser un nombre, apellido, email, dirección, etc
 * Para definir este tipo de input utilizamos el **type** text
 * Con el atributo **name** definimos el nombre de la variable
@@ -447,7 +447,7 @@ Puedes añadir varios atributos adicionales a la etiqueta **input** para persona
   </form>
   ```
 
-#####Contraseña#####
+##### Contraseña
 Existe el campo de contraseña donde no puede verse en pantalla los caracteres que se escriban. Para crear este tipo de entrada, se utiliza el atributo **type="password"**
 
 ```html
@@ -463,7 +463,7 @@ Existe el campo de contraseña donde no puede verse en pantalla los caracteres q
 
 > Hacé click en el texto "Nombre de usuario": verás que el cursor se sitúa automáticamente en el campo de texto correspondiente
 
-#####Etiquetas#####
+##### Etiquetas
 Para comunicarle al usuario qué valor tiene que ingresar en cada campo podemos utilizar el elemento **label** o etiqueta.
 
 ```html
@@ -482,7 +482,7 @@ Para enlazar la etiqueta con el campo, se le tiene que dar un atributo **for**, 
 </form>
 ```
 
-#####Numero#####
+##### Numero
 Este campo se utiliza para escribir un número entero. El campo normalmente se muestra con unas pequeñas flechas para cambiar el valor.
 
 ```html
@@ -496,7 +496,7 @@ Podés personalizar la manera en la que funciona el campo con los siguientes atr
   * **max**: valor máximo permitido
   * **step**: es el desplazamiento. Si especificas un "step" de 2, el campo sólo aceptará valores de 2 en 2 (por ejemplo: 0, 2, 6, etc.).
 
-#####Rango#####
+##### Rango
 El tipo **range** se utiliza para seleccionar un número con un cursor (también llamado un ***slider***).
 
 ```html
@@ -507,7 +507,7 @@ El tipo **range** se utiliza para seleccionar un número con un cursor (también
 
 Podés utilizar de nuevo los atributos **min**, **max** y **step** para limitar los valores disponibles.
 
-##Opciones##
+## Opciones
 HTML incluye un montón de opciones que pueden usarse en el formulario. Son elementos que requieren que el visitante elija a partir de una lista de posibilidades. Son las siguientes:
 
   * casillas de verificación;
@@ -620,6 +620,4 @@ Una de las características más esperadas de HTML5 es el soporte nativo para la
 
 HTML5 introdujo algunas mejoras semánticas también. Las nuevas etiquetas semánticas le informan a los navegadores sobre el significado del contenido, lo cual beneficia tanto a los lectores como a los motores de búsqueda.
 
-Las etiquetas semánticas más populares son **<article> </article>**, **<section> </section>**, **<aside> </aside>**, **<header> </header>** y **<footer> </footer>**.
-
-(../images/html5.png);
+Las etiquetas semánticas más populares son `<article> </article>`, `<section> </section>`, `<aside> </aside>`,`<header> </header>`y `<footer> </footer>`.
